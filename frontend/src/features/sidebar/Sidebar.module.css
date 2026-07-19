@@ -1,0 +1,94 @@
+/*
+ * Licensed to the Apache Software Foundation (ASF) under one
+ * or more contributor license agreements.  See the NOTICE file
+ * distributed with this work for additional information
+ * regarding copyright ownership.  The ASF licenses this file
+ * to you under the Apache License, Version 2.0 (the
+ * "License"); you may not use this file except in compliance
+ * with the License.  You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing,
+ * software distributed under the License is distributed on an
+ * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ * KIND, either express or implied.  See the License for the
+ * specific language governing permissions and limitations
+ * under the License.
+ */
+
+/* Ported from the old frontend's static/style.css sidebar rules. */
+
+.root {
+  display: flex;
+  align-items: stretch;
+  height: 100%;
+}
+
+.menuBar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  background: #343a40;
+  padding: 8px 4px;
+}
+
+.panel {
+  width: 280px;
+  background: #f7f7f7;
+  border: 1px solid #c4c4c4;
+  border-radius: 0 0 5px 5px;
+  padding: 12px 16px;
+  overflow-y: auto;
+  color: #495057;
+}
+
+.labelList {
+  display: flex;
+  flex-wrap: wrap;
+  max-height: 120px;
+  overflow-y: auto;
+  margin-top: 8px;
+}
+
+.nodeItem {
+  min-height: 32px;
+  background: #ffffff;
+  border: 1px solid #142b80;
+  border-radius: 20px;
+  color: #142b80;
+  margin: 0 4px 4px 0;
+  padding: 0 12px;
+  cursor: pointer;
+}
+
+.nodeItem:hover {
+  background: #2756ff;
+  border-color: #2756ff;
+  color: #ffffff;
+}
+
+.edgeItem {
+  min-height: 32px;
+  background: #ffffff;
+  border: 1px solid #142b80;
+  border-radius: 5px;
+  color: #142b80;
+  margin: 0 4px 4px 0;
+  padding: 0 12px;
+  cursor: pointer;
+}
+
+.edgeItem:hover {
+  background: #2756ff;
+  border-color: #2756ff;
+  color: #ffffff;
+}
+
+.actions {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  margin-top: 16px;
+}
