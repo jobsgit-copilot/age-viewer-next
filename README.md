@@ -71,6 +71,11 @@ npm run typecheck   # tsc --noEmit
 npm run lint        # eslint
 ```
 
+## Not implemented (yet)
+
+- **Dockerfile** — no container image build; run directly with Node as shown above.
+- **GitHub Actions CI** — no automated pipeline; run `npm test` locally (backend + frontend).
+
 ## Project layout
 
 ```
